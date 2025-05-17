@@ -93,8 +93,8 @@ const Sidebar = () => {
 
         {/* Dynamic Panel */}
         <div
-          style={{ background: 'rgba(227, 242, 253, 0.9)' }}
-          className="flex-1 h-full p-5 shadow-inner overflow-auto"
+          style={{ background: 'rgba(227, 242, 253, 0.9)' }}s
+          className="flex-1 h-full  shadow-inner overflow-auto"
         >
           <ActiveComponent />
         </div>
