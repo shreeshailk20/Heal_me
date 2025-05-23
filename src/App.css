@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+.container {
+  @apply flex min-h-screen w-full;
+}
+
+.left-panel {
+  @apply w-1/2 bg-cover bg-center;
+  background-image: url('/medi_banner.jpg');
+}
+
+.right-panel {
+  @apply w-1/2 flex items-start justify-center bg-white p-10;
+}
+
+.login-box {
+  @apply w-full max-w-xl text-center scale-110;
+}
+
+.header {
+  @apply flex items-center justify-center space-x-6 mb-8;
+}
+
+.title {
+  @apply bg-gray-300 px-16 py-4 text-3xl rounded-full w-full text-center;
+}
+
+
+.logo {
+  @apply w-20 h-20;
+}
+
+.login-heading {
+  @apply font-semibold text-4xl mb-8;
+}
+
+.input {
+  @apply w-96 mb-4 p-4 text-lg rounded-full bg-gray-200 placeholder-gray-600;
+}
+
+
+.submit-wrap {
+  @apply flex justify-center;
+}
+
+.submit-btn {
+  @apply bg-black text-white px-12 py-3 rounded-lg text-base font-semibold italic hover:bg-gray-800 transition duration-300;
+}
+
+.forgot {
+  @apply mt-4 text-sm text-gray-600 cursor-pointer;
+}
